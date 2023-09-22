@@ -7,7 +7,7 @@
     android:padding="5dp">
 
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/thumbnail"
         android:layout_width="match_parent"
         android:layout_height="180dp"
         android:scaleType="centerCrop"
@@ -23,16 +23,16 @@
         android:layout_marginTop="6dp"
         android:textSize="14sp"
         android:textColor="@color/black"
-        android:text="[Image] 네이버블로그"
+        android:text="타이틀"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+        app:layout_constraintTop_toBottomOf="@+id/thumbnail" />
 
     <TextView
         android:id="@+id/date_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="2023-09-23 10:51:00"
+        android:text="date"
         android:textSize="14sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/title_text" />
